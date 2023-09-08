@@ -1,36 +1,39 @@
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import { ComputersCanvas } from './canvas';
-import useStore from './canvas/store'
-
-
+import useStore from './canvas/store';
 
 <script src="https://unpkg.com/split-type"></script>
+
 
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto z-index:-1'>
-     <div className='absolute inset-0 flex justify-center items-center'>
-   <ComputersCanvas />
-   
- 
- 
-</div>
-    <div className='absolute top-[180px] left-0 right-0 text-center'>
-      <h1 className={`${styles.responsiveHeading}`}>
-        <span className=' bg-gradient-to-r from-black-200 to-black-200  text-transparent bg-clip-text '>
-          SHREYAS
-        </span>
-      </h1>
-      <p className={`${styles.heroSubText} mt-2`}>Final Year, MNNIT</p>
-    </div>
+       <div className='absolute inset-0 flex justify-center items-center'>
+         <ComputersCanvas />
+       </div>
 
-    <Overlay />
+       <div className='absolute top-[180px] left-0 right-0 text-center'>
+          <h1 className= {` ${styles.responsiveHeading}`} >
+             <span className=' bg-gradient-to-r from-black to-black  text-transparent bg-clip-text ' style={{
+                 fontFamily:'Permanent Marker',
+             }}>
+               SHREYAS
+             </span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2`} style={{
+              fontFamily:'Permanent Marker',
+          }}>Final Year, MNNIT</p>
+      </div>
+
+        <Overlay />
    
-  </section>
+    </section>
+
 
   )
 }
+
 
         
 function Overlay() {
@@ -39,7 +42,7 @@ function Overlay() {
     const api = useStore((state) => state.api)
     return (
       <>
-        <div className={`fullscreen bg ${loaded ? 'loaded' : 'notready'} ${clicked && 'clicked'}`}
+        <div className={`fullscreen bg ${loaded ? 'loaded' : 'not-ready'} ${clicked && 'clicked'}`}
         style={{zIndex:0}}
         >
           <div onClick={() => loaded && api.start()}>

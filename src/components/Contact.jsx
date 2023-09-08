@@ -125,7 +125,7 @@ const Contact = () => {
                type='Send'
                className='py-3 px-8 outline-none text-white-100 font-bold text-[22px] shadow-primary'
                >
-                   {loading ? 'sending...' : 'send'}
+                   {loading ? 'sending...' : 'Send'}
 
                </button>
 
@@ -142,7 +142,7 @@ const Contact = () => {
 <br/>
 
       {/* Icon Links */}
-      <div className="absolute  xs:bottom-1  w-full flex justify-center items-center">
+      <div className="absolute bottom-1 xs:bottom-1  w-full  flex justify-center items-center   ">
         <a
           href="https://www.instagram.com/reydotd/"
           target="_blank"

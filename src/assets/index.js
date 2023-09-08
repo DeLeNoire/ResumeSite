@@ -31,6 +31,8 @@ import Java from "./company/Java.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import me3 from "./me3.jpg";
+import  nodeLogo from "./nodeLogo.png"
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   ReactJs,
   threeJs,
   P5Js,
+    me3,
+    nodeLogo,
 };

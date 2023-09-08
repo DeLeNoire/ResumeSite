@@ -116,7 +116,7 @@ function Graph(props) {
   return (
     <instancedMesh ref={ref} args={[null, null, 64]} {...props}>
       <planeGeometry args={[0.02, 0.05]} />
-      <meshBasicMaterial toneMapped={false} transparent opacity={1} />
+      <meshBasicMaterial toneMapped={true} transparent opacity={1} />
     </instancedMesh>
   )
 }

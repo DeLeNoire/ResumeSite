@@ -27,13 +27,15 @@ import {
     P5Js,
     Java,
     ReactJs,
+    me3,
+    nodeLogo,
   } from "../assets";
   
   export const navLinks = [
-    // {
-    //   id: "about",
-    //   title: "About",
-    // },
+    {
+      id: "about",
+      title: "About",
+    },
     {
       id: "work",
       title: "Work",
@@ -46,21 +48,22 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "My Edu-Site",
+      icon: tripguide,
+      link:"https://new-ed.vercel.app/",
     },
-    {
-      title: "JAVA Coder",
-      icon: mobile,
-    },
-    {
-      title: "Node Js",
-      icon: backend,
-    },
-    {
-      title: "Sketch And Visuals",
-      icon: creator,
-    },
+    // {
+    //   title: "JAVA Coder",
+    //   icon: mobile,
+    // },
+    // {
+    //   title: "Node Js",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "Sketch And Visuals",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -150,8 +153,8 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Well-versed in DSA demonstrates an adept ability to solve complex problems efficiently." ,
-        "Can analyze challenges, break them down into smaller components, and apply appropriate data structures and algorithms to devise optimized solutions.",
+        "Well-versed in DSA and Algorithms demonstrates an adept ability to solve complex problems efficiently." ,
+
       ],
       link:"",
     },
@@ -162,18 +165,18 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Having a grasp over the power of component-based architecture along with developing Single-Page Applications that offer fast and smooth navigation without requiring full page reloads along with state, to create modern and responsive web applications.",
+        "Having a grasp over the power of component-based architecture along with developing Single-Page Applications, to create modern and responsive web applications.",
       ],
       link:"https://my-face-mesh.vercel.app/",
     },
     {
       title: "Back-End",
       company_name: "NodeJs",
-      icon: ReactJs,
+      icon: nodeLogo,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Having a grasp over the power of component-based architecture along with developing Single-Page Applications that offer fast and smooth navigation without requiring full page reloads along with state, to create modern and responsive web applications.",
+        "Expertise over A powerful, server-side JavaScript runtime that facilitates scalable and high-performance web applications, fostering non-blocking I/O and event-driven programming.",
       ],
       link:"",
     },
@@ -184,7 +187,7 @@ import {
     {
       name: "NodeJs Blog Page",
       description:
-        "Web-based platform that allows users to search, edit, and manage blogs  from various admins, providing a convenient and efficient solution for storing articles and posts.",
+        "Web-based platform that allows to search, edit, and manage blogs from various admins, providing a convenient and efficient solution for storing articles and posts as well as blogs.",
       tags: [
         {
           name: "NodeJs",
@@ -225,25 +228,25 @@ import {
       source_code_link: "https://shreyas-ascii-art.vercel.app/",
     },
     {
-      name: "My Edu Site",
+      name: "Face Mesh",
       description:
-        "A website representing my educational journey along with some interactive animation using threeJs and react-three/fiber",
+        "I created an react app that tracks faces using tensorflowJs model  and draw 468 points with set interval",
       tags: [
         {
-          name: "threeJs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "React",
+          name: "TensorflowJs",
           color: "green-text-gradient",
         },
         {
-          name: "rtf",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://shreyas-ed-site.vercel.app/",
+      image: me3,
+      source_code_link: "https://my-face-mesh.vercel.app/",
     },
 
   ];

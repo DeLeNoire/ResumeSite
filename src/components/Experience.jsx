@@ -31,7 +31,7 @@ const ExperienceCard = ({experience}) =>
     <ul className="  font-mono mt-5 list-disc ml-5 space-y-2">
       {experience.points.map((point , index) =>
           (
-        <li key={`experience-point-${index}`} className=" text-secondary text-[16px] pl-1 tracking-wider">
+        <li key={`experience-point-${index}`} className=" text-gray-400 text-[16px] pl-1 tracking-wider">
           {point}
         </li>
 

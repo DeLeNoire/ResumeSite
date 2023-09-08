@@ -5,7 +5,7 @@ const styles = {
     padding: "sm:px-16 px-6 sm:py-16 py-10",
 
     responsiveHeading:
-    "lg:text-[270px] sm:text-[120px] xs:text-[110px] text-[40px] lg:leading-[98px] mt-2",
+    "fontFamily: 'Permanent Marker', cursive;, lg:text-[260px] sm:text-[120px] xs:text-[110px] text-[90px] lg:leading-[98px] mt-2 ",
     heroHeadText:
       "font-black text-white lg:text-[270px] sm:text-[80px] xs:text-[65px] text-[40px] lg:leading-[98px] mt-2",
     heroSubText:
